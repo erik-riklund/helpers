@@ -2,5 +2,9 @@
   "license": "MIT",
   "version": "0.1.0",
   "name": "@riklund/helpers",
-  "exports": "./main.ts"
+  "exports": "./main.ts",
+  "imports": {
+    "@std/expect": "jsr:@std/expect@^1.0.18",
+    "@std/testing": "jsr:@std/testing@^1.0.17"
+  }
 }
